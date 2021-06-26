@@ -1,4 +1,4 @@
 from django.shortcuts import render
 
-def post_list(request):
+def templates(request):
     return render(request, 'insta/templates.html', {})
